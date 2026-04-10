@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.output {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px dashed #aaa;
+  min-height: 120px;
+  white-space: pre-wrap;
+}
+
+.copy-btn {
+  background: blue;
+  margin-top: 10px;
+}
